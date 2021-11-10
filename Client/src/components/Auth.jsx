@@ -40,7 +40,7 @@ const Auth = () => {
         cookies.set('userId', userId);
 
         if(isSignup) {
-            cookies.set('phoneNumber', phone);
+            cookies.set('phoneNumber', phoneNumber);
             cookies.set('avatarURL', avatarURL);
             cookies.set('hashedPassword', hashedPassword);
         }
